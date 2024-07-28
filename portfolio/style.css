@@ -278,6 +278,9 @@ hr{
 }
 
 /*---------skills--------*/
+.main{
+  padding: 10px 40px;
+}
 .skills-content{
     row-gap: 3.5rem;
     display: none;
