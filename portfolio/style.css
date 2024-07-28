@@ -384,7 +384,7 @@ hr{
         width: 100%;
     }
     .skills-content{
-        grid-template-columns: 330px;
+        grid-template-columns: 280px;
         padding: 10px 40px;
     }
 }
