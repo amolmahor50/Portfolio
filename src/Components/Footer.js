@@ -88,7 +88,7 @@ function Footer() {
             <div className="icon-wrapper-div">
                 <a href="https://instagram.com/_aesthetic.amol?igshid=NzZlODBkYWE4Ng=="><FaTwitter /></a>
                 <a href="https://www.facebook.com/amolmahor50?mibextid=ZbWKwL"><FaFacebookF /></a>
-                <a href=""><FaInstagram /></a>
+                <a href="https://instagram.com/_aesthetic.amol?igshid=NzZlODBkYWE4Ng=="><FaInstagram /></a>
             </div>
             <p className="copyright-text">Copyright @2024 All right reserved | This templete with made is Amol</p>
         </>

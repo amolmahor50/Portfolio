@@ -1,14 +1,24 @@
-import logo from '../Assets/logo.jpg'
+import { useState } from 'react';
+import logo from '../Assets/logo.jpg';
+import { IoMdMenu } from "react-icons/io";
+
 
 function Header() {
+  
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen)
+  }
+  
   return (
     <div className='header'>
       {/* logo */}
-      <nav>
-        <div className='logo'>
-          <img src={logo} />
-          <h1>Amol</h1>
-        </div>
+      <div className='logo'>
+        <img src={logo} />
+        <h1>Amol</h1>
+      </div>
+      <nav className ={`${isOpen ? "open" : ""}`}>
         {/* list items in header part */}
         <div className='header-list'>
           <ul>
@@ -23,6 +33,12 @@ function Header() {
           </ul>
         </div>
       </nav>
+      <div className='mobile-nav' onClick={toggleNavbar}>
+        <div className='humber'>
+          <IoMdMenu className='icon' />
+          <p>menu</p>
+        </div>
+      </div>
     </div>
   )
 }
