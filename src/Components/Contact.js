@@ -4,7 +4,7 @@ import {DetailsData} from '../Data/Data'
 function Contact() {
 
     return (
-        <div className="conatct-container">
+        <div className="conatct-container" id='contact'>
             <div className="headline-content">
                 <h1>Contact Me</h1>
                 <h1 className="shadowName">Conatct</h1>

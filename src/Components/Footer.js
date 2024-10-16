@@ -8,7 +8,7 @@ import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 function Footer() {
     return (
         <>
-            <div className="footer-container">
+            <div className="footer-container" id="footer">
                 <div className="footer-wrapper first">
                     <h3 className="footer-info-name">About</h3>
                     <p className="link-type">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>

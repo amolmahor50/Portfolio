@@ -3,7 +3,7 @@ import home from '../Assets/home.jpg'
 
 function Home() {
   return (
-    <div className='home-container'>
+    <div className='home-container' id='home'>
         {/* content homepage */}
         <div className='home-content'>
             <span className='wrapper-text'>HELLO!</span>

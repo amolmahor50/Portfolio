@@ -3,7 +3,7 @@ import {Progress_Sills} from '../Data/Data';
 function Skills() {
 
     return (
-        <div className="skill-container">
+        <div className="skill-container" id='skill'>
             <div className="headline-content">
                 <h1>My Skills</h1>
                 <h1 className="shadowName">Skills</h1>

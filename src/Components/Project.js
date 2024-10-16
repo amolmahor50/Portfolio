@@ -4,7 +4,7 @@ import {projectSummury} from '../Data/Data'
 function Project() {
 
   return (
-    <div className="project-container">
+    <div className="project-container" id="project">
       <div className='headline-content'>
         <h1>Our Projects</h1>
         <h1 className="shadowName">Projects</h1>

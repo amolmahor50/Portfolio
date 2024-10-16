@@ -5,7 +5,7 @@ import {BlogSummury, BlogsCard} from '../Data/Data'
 function Blogs() {
 
     return (
-        <div className="blogs-container">
+        <div className="blogs-container" id="blogs">
             <div className="headline-content">
                 <h1>Our Blog</h1>
                 <h1 className="shadowName">Blogs</h1>

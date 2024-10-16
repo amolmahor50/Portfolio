@@ -3,7 +3,7 @@ import logo from '../Assets/logo.jpg'
 
 function About() {
     return (
-        <div className='about-container'>
+        <div className='about-container' id='about'>
             <div className='img-content'>
                 <img src={logo} />
             </div>

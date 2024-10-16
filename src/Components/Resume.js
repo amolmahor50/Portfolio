@@ -3,7 +3,7 @@ import {resumeDetails} from "../Data/Data";
 function Resume() {
 
     return (
-        <div className='resume-container'>
+        <div className='resume-container' id="resume">
             <div className='headline-content'>
                 <h1>Resume</h1>
                 <h1 className='shadowName'>Resume</h1>

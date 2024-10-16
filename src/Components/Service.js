@@ -9,7 +9,7 @@ import { NavLink } from "react-bootstrap";
 
 function Service() {
     return (
-        <div className='service-container'>
+        <div className='service-container' id="service">
             <div className="headline-content">
                 <h1>Service</h1>
                 <h1 className='shadowName'>Service</h1>
