@@ -10,6 +10,7 @@ import Service from "./Components/Service";
 import Skills from "./Components/Skills";
 
 function App() {
+  
   return (
     <div className="app">
         <Header/>

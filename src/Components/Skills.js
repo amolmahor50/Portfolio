@@ -1,47 +1,7 @@
+import {Progress_Sills} from '../Data/Data';
 
 function Skills() {
-    const Progress_Sills = [
-        {
-            skill_name: "HTML5",
-            progress_per: "95",
-        },
-        {
-            skill_name: "CSS",
-            progress_per: "80",
-        },
-        {
-            skill_name: "BootStrap",
-            progress_per: "60",
-        },
-        {
-            skill_name: "TailWind CSS",
-            progress_per: "50",
-        },
-        {
-            skill_name: "Git",
-            progress_per: "80",
-        },
-        {
-            skill_name: "GitHub",
-            progress_per: "85",
-        },
-        {
-            skill_name: "JavaScript",
-            progress_per: "80",
-        },
-        {
-            skill_name: "Java",
-            progress_per: "60",
-        },
-        {
-            skill_name: "ReactJs",
-            progress_per: "75",
-        },
-        {
-            skill_name: "Redux",
-            progress_per: "50",
-        },
-    ]
+
     return (
         <div className="skill-container">
             <div className="headline-content">

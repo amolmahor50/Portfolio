@@ -1,54 +1,9 @@
 import { MdOutlineMessage } from "react-icons/md";
-import Computer from '../Assets/Computer.jpg';
 import Skeleton from '../Assets/nature.jpg';
+import {BlogSummury, BlogsCard} from '../Data/Data'
 
 function Blogs() {
 
-    const BlogSummury = [
-        {
-            img: Computer,
-            date: "Dec 21, 2023",
-            profession: "Devop",
-            commentCount: 8,
-            title: "Why Lead Generation is Key for Business Growth",
-            subtitle: "A small river named Duden flows by their place and supplies it with the necessary regelialia."
-        },
-        {
-            img: Computer,
-            date: "Aug 26, 2020",
-            profession: "Team Lead",
-            commentCount: 5,
-            title: "Why Lead Generation is Key for Business Growth",
-            subtitle: "A small river named Duden flows by their place and supplies it with the necessary regelialia."
-        },
-        {
-            img: Computer,
-            date: "Sept 01, 2024",
-            profession: "Manager",
-            commentCount: 12,
-            title: "Why Lead Generation is Key for Business Growth",
-            subtitle: "A small river named Duden flows by their place and supplies it with the necessary regelialia."
-        },
-    ]
-
-    const BlogsCard = [
-        {
-            couter: 100,
-            title: "Awards"
-        },
-        {
-            couter: 25,
-            title: "Completed Projects"
-        },
-        {
-            couter: 800,
-            title: "Happy Customers"
-        },
-        {
-            couter: 500,
-            title: "Cups of Coffee"
-        }
-    ]
     return (
         <div className="blogs-container">
             <div className="headline-content">

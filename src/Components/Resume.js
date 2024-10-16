@@ -1,30 +1,7 @@
+import {resumeDetails} from "../Data/Data";
+
 function Resume() {
-    const resumeDetails = [
-        {
-            year: "2024-2015",
-            degeree: "Master Degree of Design",
-            university_name: "Cambridge University",
-            comment: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-        },
-        {
-            year: "2024-2015",
-            degeree: "UI/UX Designer",
-            university_name: "Cambridge University",
-            comment: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-        },
-        {
-            year: "2024-2015",
-            degeree: "Diploma in Computer",
-            university_name: "Cambridge University",
-            comment: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-        },
-        {
-            year: "2024-2015",
-            degeree: "Art & Creative Director",
-            university_name: "Cambridge University",
-            comment: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-        }
-    ]
+
     return (
         <div className='resume-container'>
             <div className='headline-content'>

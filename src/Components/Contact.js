@@ -1,33 +1,8 @@
-import { FaRegAddressCard } from "react-icons/fa";
-import { IoCallOutline } from "react-icons/io5";
-import { AiOutlineMail } from "react-icons/ai";
-import { TiWorld } from "react-icons/ti";
 import SelfImg from '../Assets/home.jpg';
+import {DetailsData} from '../Data/Data'
 
 function Contact() {
 
-    const DetailsData = [
-        {
-            icon: <FaRegAddressCard />,
-            title: "Address",
-            subTitle: "102, Bhoir Apartment, Dange Chowk, Pune"
-        },
-        {
-            icon: <IoCallOutline />,
-            title: "conatct number",
-            subTitle: "+91 9673170912"
-        },
-        {
-            icon: <AiOutlineMail />,
-            title: "email address",
-            subTitle: "amolmahor50@gmail.com"
-        },
-        {
-            icon: <TiWorld />,
-            title: "website",
-            subTitle: "yoursite.com"
-        },
-    ]
     return (
         <div className="conatct-container">
             <div className="headline-content">
