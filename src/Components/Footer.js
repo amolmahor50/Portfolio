@@ -16,55 +16,55 @@ function Footer() {
                 <div className="footer-wrapper">
                     <h3 className="footer-info-name">Links</h3>
                     <div className="footer-links">
-                        <div className="link">
+                        <a href="#home" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">Home</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#about" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">About</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#service" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">Service</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#project" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">Project</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#contact" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">Contact</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div className="footer-wrapper">
                     <h3 className="footer-info-name">Services</h3>
                     <div className="footer-links">
-                        <div className="link">
+                        <a href="#web-design" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">Web design</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#web-dev" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">Web Development</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#ui-design" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">UI/UX design</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#branding" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">Branding</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#app-dev" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">App Development</p>
-                        </div>
-                        <div className="link">
+                        </a>
+                        <a href="#soft-dev" className="link">
                             <GrFormNextLink className="icon" />
                             <p className="link-type">Software Development</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div className="footer-wrapper">

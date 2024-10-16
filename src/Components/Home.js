@@ -11,7 +11,7 @@ function Home() {
             <p className='wrapper-text-2'>A freelancer frontend developer</p>
             <div className='btns'>
               <button className='active-btn'>HIRE ME</button>
-              <button>MY WORK</button>
+              <a href='#service'><button>MY WORK</button></a>
             </div>
         </div>
         {/* img home */}

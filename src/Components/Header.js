@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import logo from '../Assets/logo.jpg';
 import { IoMdMenu } from "react-icons/io";
-import { NavLink } from 'react-bootstrap';
 
 
 function Header() {
@@ -16,10 +15,10 @@ function Header() {
   return (
     <div className='header'>
       {/* logo */}
-      <NavLink to='/' className='logo'>
+      <a href='#home' className='logo'>
         <img src={logo} />
         <h1>Amol</h1>
-      </NavLink>
+      </a>
       <nav className ={`${isOpen ? "open" : ""}`}>
         {/* list items in header part */}
         <div className='header-list'>

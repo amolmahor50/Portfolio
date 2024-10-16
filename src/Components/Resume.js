@@ -1,6 +1,6 @@
 import {resumeDetails} from "../Data/Data";
 
-function Resume() {
+function Resume({handleResumeDownload}) {
 
     return (
         <div className='resume-container' id="resume">
@@ -20,7 +20,7 @@ function Resume() {
                         </div>
                     ))}
                 </div>
-                <button className='cv-btn'>DOWNLOAD CV</button>
+                <button className='cv-btn' onClick={handleResumeDownload}>DOWNLOAD CV</button>
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../Assets/logo.jpg'
 
-function About() {
+function About({handleResumeDownload}) {
     return (
         <div className='about-container' id='about'>
             <div className='img-content'>
@@ -40,7 +40,7 @@ function About() {
                     </div>
                 </div>
                 <p className='project-counter'><span>25 </span>Project complete</p>
-                <button className='cv-btn'>DOWNLOAD CV</button>
+                <button className='cv-btn'  onClick={handleResumeDownload}>DOWNLOAD CV</button>
             </div>
         </div>
     )

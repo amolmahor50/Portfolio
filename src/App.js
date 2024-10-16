@@ -10,13 +10,21 @@ import Service from "./Components/Service";
 import Skills from "./Components/Skills";
 
 function App() {
+
+  const handleResumeDownload = () => {
+    // Use the 'a' tag to trigger the download
+    const link = document.createElement('a');
+    link.href = '/Resume.pdf'; // Path to your resume file
+    link.download = 'Amol_Resume.pdf'; // Name for the downloaded file
+    link.click();
+  };
   
   return (
     <div className="app">
         <Header/>
         <Home/>
-        <About/>
-        <Resume/>
+        <About handleResumeDownload={handleResumeDownload}/>
+        <Resume handleResumeDownload={handleResumeDownload}/>
         <Service/>
         <Skills/>
         <Project/>

@@ -20,6 +20,15 @@ import CabService from '../Assets/Taxi.jpg';
 import Calculator from '../Assets/Calculator.jpg';
 import Portfolio from '../Assets/Portfolio.jpg';
 
+export const ResumeDownload = () => {
+    const handleDownload = () => {
+        // Use the 'a' tag to trigger the download
+        const link = document.createElement('a');
+        link.href = '/Resume.pdf'; // Path to your resume file
+        link.download = 'Amol_Resume.pdf'; // Name for the downloaded file
+        link.click();
+      };
+}
 
 export const projectSummury = [
     {
@@ -56,7 +65,7 @@ export const projectSummury = [
       img: TriveniWebPage,
       subtitle: "Triveni BeautyHub Website",
       title: "web design",
-      link: "https://github.com/amolmahor50/TriveniBeautyHub.git"
+      link: "https://amolmahor50.github.io/TriveniBeautyHub/"
     },
     {
       img: CabService,
@@ -74,7 +83,7 @@ export const projectSummury = [
       img: Portfolio,
       subtitle: "Potfolio",
       title: "Front-end UI/UX",
-      link: "https://github.com/amolmahor50/Portfolio.git"
+      link: "https://amolmahor50.github.io/Portfolio/"
     }
   ]
 
