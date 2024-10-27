@@ -158,27 +158,27 @@ export const DetailsData = [
 
 export const resumeDetails = [
     {
-        year: "2024-2015",
-        degeree: "Master Degree of Design",
+        year: "2020-2023",
+        degeree: "Master Degree of Developement",
         university_name: "Cambridge University",
         comment: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        year: "2024-2015",
+        year: "2018-2020",
         degeree: "UI/UX Designer",
-        university_name: "Cambridge University",
+        university_name: "Classic Technology Private Limited",
         comment: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        year: "2024-2015",
+        year: "2017-2018",
         degeree: "Diploma in Computer",
-        university_name: "Cambridge University",
+        university_name: "Dr. Babasaheb Ambedakar University",
         comment: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        year: "2024-2015",
-        degeree: "Art & Creative Director",
-        university_name: "Cambridge University",
+        year: "2016-2017",
+        degeree: "Art & Creative",
+        university_name: "Sant Gadage Baba College",
         comment: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     }
 ]

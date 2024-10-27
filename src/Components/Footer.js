@@ -2,7 +2,7 @@ import { GrFormNextLink } from "react-icons/gr";
 import { LuMapPin } from "react-icons/lu";
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineAttachEmail } from "react-icons/md";
-import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 
 function Footer() {
@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer-container" id="footer">
                 <div className="footer-wrapper first">
                     <h3 className="footer-info-name">About</h3>
-                    <p className="link-type">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p className="link-type"> I'm a front end developer with Two years of experience in web development.  I've worked on a variety of projects for clients in the retail, travel, and healthcare industries.</p>
                 </div>
                 <div className="footer-wrapper">
                     <h3 className="footer-info-name">Links</h3>
@@ -86,7 +86,7 @@ function Footer() {
                 </div>
             </div>
             <div className="icon-wrapper-div">
-                <a href="https://instagram.com/_aesthetic.amol?igshid=NzZlODBkYWE4Ng=="><FaTwitter /></a>
+                <a href="https://github.com/amolmahor50/"><FaGithub /></a>
                 <a href="https://www.facebook.com/amolmahor50?mibextid=ZbWKwL"><FaFacebookF /></a>
                 <a href="https://instagram.com/_aesthetic.amol?igshid=NzZlODBkYWE4Ng=="><FaInstagram /></a>
             </div>
