@@ -8,6 +8,7 @@ import Project from "./Components/Project";
 import Resume from "./Components/Resume";
 import Service from "./Components/Service";
 import Skills from "./Components/Skills";
+import Theme from "./Components/Theme";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Blogs/>
         <Contact/>
         <Footer/>
+        <Theme/>
     </div>
   );
 }
