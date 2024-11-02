@@ -108,7 +108,7 @@
 
 .theme-container p {
   font-size: 9px;
-  color: var(--white);
+  color: white;
 }
 
 .theme-container .black {
@@ -299,7 +299,6 @@
   .theme-container p {
     font-size: 12px;
     letter-spacing: 0.8px;
-    color: var(--black);
   }
 
   .theme-container::after {
@@ -1706,6 +1705,7 @@
 
 .conatct-container .contact-info .subtitle {
   font-size: 16px;
+  color: var(--white);
 }
 
 .conatct-container .contact-form {
@@ -1782,6 +1782,7 @@ textarea {
 
   .conatct-container .contact-info {
     width: 360px;
+    height: 270px;
   }
 
   .conatct-container .contact-form {
@@ -1889,7 +1890,7 @@ textarea {
 
   .conatct-container .contact-info {
     width: 100%;
-    height: 280px;
+    height: 250px;
     gap: 10px;
   }
 
