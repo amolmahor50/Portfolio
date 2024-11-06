@@ -367,6 +367,7 @@
 .home-container .home-content .wrapper-text-2 {
   font-size: 26px;
   letter-spacing: 0.3px;
+  color: var(--white);
 }
 
 .home-container .home-content h1 {
@@ -1047,6 +1048,17 @@
   gap: 40px;
 }
 
+@keyframes appear {
+  form{
+    opacity: 0;
+    clip-path: inset(100% 100% 0 0);
+  }
+  to{
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
 .progress-div .progress-group {
   width: 450px;
   display: flex;
@@ -1055,6 +1067,9 @@
   flex-direction: column;
   gap: 10px;
   margin: 10px 0;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
 }
 
 .progress-div .progress-group progress {
@@ -1074,6 +1089,7 @@
 
 .progress-group .progress-div-wrapper-1 label {
   font-size: 16px;
+  color: var(--white);
 }
 
 /* media quary */
@@ -1631,6 +1647,26 @@
 
   .blogs-container .blogs-summury {
     width: 90%;
+  }
+
+  .skeleton-content .skeleton-img img {
+    height: 320px;
+  }
+
+  .skeleton-content .skeleton-img .skeleton-wrapper h4 {
+    font-size: 25px;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .skeleton-content .skeleton-img .skeleton-wrapper p {
+    font-size: 12px;
+    width: 65%;
+    margin: 10px auto;
+  }
+
+  .skeleton-content .skeleton-img .skeleton-wrapper button {
+    padding: 10px 25px;
   }
 
 }
