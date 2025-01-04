@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fab597d5.css",
-    "main.js": "/Portfolio/static/js/main.3ee3fb94.js",
-    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/Calculator.jpg": "/Portfolio/static/media/Calculator.b63e9137ecc396d95ff8.jpg",
-    "static/media/nature.jpg": "/Portfolio/static/media/nature.6348bc3f20981bf27c87.jpg",
-    "static/media/home.jpg": "/Portfolio/static/media/home.69fc93d02e2ceaff0ed8.jpg",
-    "static/media/BeautyHub.jpg": "/Portfolio/static/media/BeautyHub.a7c06b67e60b63ffb0fe.jpg",
-    "static/media/TodoManagement.jpg": "/Portfolio/static/media/TodoManagement.ea8966b2311ff163766a.jpg",
-    "static/media/BubbleGame.jpg": "/Portfolio/static/media/BubbleGame.0c6020ac7da3f4f71e1c.jpg",
-    "static/media/Taxi.jpg": "/Portfolio/static/media/Taxi.6cc98290aac1c03fb5bc.jpg",
-    "static/media/Computer.jpg": "/Portfolio/static/media/Computer.7f4898f4c2c28c5e512f.jpg",
-    "static/media/Portfolio.jpg": "/Portfolio/static/media/Portfolio.fc6fdd46f71042a6f5c6.jpg",
-    "static/media/Flipkart.jpg": "/Portfolio/static/media/Flipkart.9fd69d2ce4f589ae5072.jpg",
-    "static/media/WebPage.jpg": "/Portfolio/static/media/WebPage.4e93e6700e8a21214389.jpg",
-    "static/media/TextUtils.jpg": "/Portfolio/static/media/TextUtils.6e5ad9a7b14a6723cf12.jpg",
-    "static/media/logo.jpg": "/Portfolio/static/media/logo.c4d1eed970921b8e1f5a.jpg",
-    "index.html": "/Portfolio/index.html",
-    "main.fab597d5.css.map": "/Portfolio/static/css/main.fab597d5.css.map",
-    "main.3ee3fb94.js.map": "/Portfolio/static/js/main.3ee3fb94.js.map",
-    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.fab597d5.css",
+    "main.js": "/static/js/main.4a633313.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/Calculator.jpg": "/static/media/Calculator.b63e9137ecc396d95ff8.jpg",
+    "static/media/nature.jpg": "/static/media/nature.6348bc3f20981bf27c87.jpg",
+    "static/media/home.jpg": "/static/media/home.69fc93d02e2ceaff0ed8.jpg",
+    "static/media/BeautyHub.jpg": "/static/media/BeautyHub.a7c06b67e60b63ffb0fe.jpg",
+    "static/media/TodoManagement.jpg": "/static/media/TodoManagement.ea8966b2311ff163766a.jpg",
+    "static/media/BubbleGame.jpg": "/static/media/BubbleGame.0c6020ac7da3f4f71e1c.jpg",
+    "static/media/Taxi.jpg": "/static/media/Taxi.6cc98290aac1c03fb5bc.jpg",
+    "static/media/Computer.jpg": "/static/media/Computer.7f4898f4c2c28c5e512f.jpg",
+    "static/media/Portfolio.jpg": "/static/media/Portfolio.fc6fdd46f71042a6f5c6.jpg",
+    "static/media/Flipkart.jpg": "/static/media/Flipkart.9fd69d2ce4f589ae5072.jpg",
+    "static/media/WebPage.jpg": "/static/media/WebPage.4e93e6700e8a21214389.jpg",
+    "static/media/TextUtils.jpg": "/static/media/TextUtils.6e5ad9a7b14a6723cf12.jpg",
+    "static/media/logo.jpg": "/static/media/logo.c4d1eed970921b8e1f5a.jpg",
+    "index.html": "/index.html",
+    "main.fab597d5.css.map": "/static/css/main.fab597d5.css.map",
+    "main.4a633313.js.map": "/static/js/main.4a633313.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fab597d5.css",
-    "static/js/main.3ee3fb94.js"
+    "static/js/main.4a633313.js"
   ]
 }
