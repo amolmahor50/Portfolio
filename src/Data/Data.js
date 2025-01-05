@@ -198,7 +198,7 @@ export const Progress_Sills = [
     },
     {
         skill_name: "TailWind CSS",
-        progress_per: "50",
+        progress_per: "80",
     },
     {
         skill_name: "Git",
@@ -219,6 +219,14 @@ export const Progress_Sills = [
     {
         skill_name: "ReactJs",
         progress_per: "75",
+    },
+    {
+        skill_name: "NextJs",
+        progress_per: "60"
+    }, 
+    {
+        skill_name: "Material UI",
+        progress_per: "68"
     },
     {
         skill_name: "Redux",
