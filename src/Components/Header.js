@@ -43,7 +43,6 @@ function Header() {
       <div className='mobile-nav' onClick={toggleNavbar}>
         <div className='humber'>
           <IoMdMenu className='icon' />
-          <p>menu</p>
         </div>
       </div>
     </div>

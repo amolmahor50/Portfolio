@@ -2,9 +2,29 @@ import SelfImg from '../Assets/home.jpg';
 import {DetailsData} from '../Data/Data';
 import AOS from 'aos';
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+    const formData = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs
+        .sendForm('service_09csuev', 'template_a9rmwnq', formData.current, {
+          publicKey: 'b_bdk_Oe3A3NVrWAv',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+            formData.current.reset();
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
 
     useEffect(() => {
         AOS.init({duration: 1500});
@@ -29,12 +49,12 @@ function Contact() {
                 }
             </div>
             <div className="contact-form">
-                <form data-aos='fade-up'>
+                <form data-aos='fade-up' ref={formData} onSubmit={sendEmail}>
                     <div className="form-group">
-                        <input type="text" placeholder="Your Name" data-aos='fade-right'/>
-                        <input type="email" placeholder="Your Email" data-aos='fade-right'/>
-                        <input type="text" placeholder="Subject" data-aos='fade-right'/>
-                        <textarea placeholder="Massage" rows={10} data-aos='fade-right'></textarea>
+                        <input type="text" name="from_name" placeholder="Your Name" data-aos='fade-right'/>
+                        <input type="email" name="from_email" placeholder="Your Email" data-aos='fade-right'/>
+                        <input type="text" name="sub_massage" placeholder="Your massage" data-aos='fade-right'/>
+                        <textarea placeholder="Massage" name="message" rows={10} data-aos='fade-right'/>
                         <button type="submit" data-aos='zoom-in'>send massage</button>
                     </div>
                 </form>
