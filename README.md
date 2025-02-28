@@ -36,7 +36,7 @@ Hey there! I'm **Amol Mahor**, a passionate **Frontend Developer** skilled in bu
 ## 📌 Projects  
 
 ### 1️⃣ **Google Translator Clone** 🌍🔤  
-🔗 [Live Demo]([https://your-live-link.com](https://translator-6e33c.web.app/)) | 📂 [GitHub Repo](https://github.com/amolmahor50/google_translator_clone)  
+ [Live Demo](https://translator-6e33c.web.app/) | 📂 [GitHub Repo](https://github.com/amolmahor50/Google-Translator)  
 A real-time language translation app using **React.js, Firebase, Redux Toolkit, Google Translate API**.  
 
 ### 2️⃣ **Task Management App** ✅📋  
