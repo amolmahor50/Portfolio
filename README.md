@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🚀 Amol Suresh Mahor – Frontend Developer  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔗 **Live Portfolio:** [Visit My Website](https://amolmahor50.github.io/Portfolio/)  
+📩 **Email:** amolmahor50@gmail.com
+📍 **Location:** Pune, India
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👋 About Me  
 
-### `npm start`
+Hey there! I'm **Amol Mahor**, a passionate **Frontend Developer** skilled in building web applications with modern technologies like **Html5, CSS3, Javascript, jQuary, React.js, Next.js, Firebase, and Tailwind CSS**. I love solving real-world problems and creating seamless user experiences.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔹 **Expertise:** Frontend Development  
+- 🔹 **Tech Stack:** React, Next.js, Node.js, Firebase, Html5, css3, JS. jQuary,
+- 🔹 **Focus Areas:** UI/UX Design, API Development, State Management  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Frontend:**  
+- ⚡ **React.js, Next.js** (Modern Web Apps)  
+- 🎨 **Material UI, ShadCN, Tailwind CSS** (Responsive UI)  
+- ⚙ **Redux Toolkit, Context API** (State Management)  
 
-### `npm run build`
+### **Backend & Database:**  
+- 🔥 **Firebase (Firestore, Auth, Storage)**  
+- 🗄️ **Firebase, MySQL**  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **DevOps & Tools:**  
+- 🌐 **Git, GitHub, Firebase Hosting, Vercel**  
+- 🛠 **VS Code, Postman, Docker**  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📌 Projects  
 
-### `npm run eject`
+### 1️⃣ **Google Translator Clone** 🌍🔤  
+🔗 [Live Demo]([https://your-live-link.com](https://translator-6e33c.web.app/)) | 📂 [GitHub Repo](https://github.com/amolmahor50/google_translator_clone)  
+A real-time language translation app using **React.js, Firebase, Redux Toolkit, Google Translate API**.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2️⃣ **Task Management App** ✅📋  
+🔗 [Live Demo](https://todo-management-fd3af.web.app/) | 📂 [GitHub Repo](https://github.com/amolmahor50/todo_management)  
+A **To-Do List & Alarm App** with **Redux Toolkit, Firebase**, and **hidden tasks feature**.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌍 Connect with Me  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+💼 **LinkedIn:** [linkedin.com/in/amol.mahor](https://www.linkedin.com/in/amol-mahor-a57a87202)  
+🐦 **Twitter:** [@amol-mahor](https://twitter.com/yourhandle)  
+📂 **GitHub:** [github.com/amolmahor50](https://github.com/amolmahor50)  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 💡 **Let's Build Something Amazing! 🚀**  
+If you're interested in working together or just want to chat, feel free to reach out! 😊  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📌 **How to Use This Portfolio Locally**  
+1️⃣ Clone this repository:  
+```sh
+git clone https://github.com/amolmahor50/portfolio.git
